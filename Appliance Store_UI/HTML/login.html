@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Üyelik</title>
+    <link rel="stylesheet" href="../css/uyelik.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+  </head>
+  <style>
+    .jumbotron {
+      background: white;
+    }
+    nav{
+      position: relative;
+      width: 100% !important;
+    }
+  </style>
+  <body>
+  <div class="se-pre-con"></div>
+  <nav>
+      <ul>
+        <li class="primary-nav">
+          <img src="../Images/logo.jpg" alt="logo" />
+          <a href="../index.html">Appliance Store</a>
+        </li>
+      
+        <li class="secondary-nav"><a href="../HTML/beyazesya.html">Beyaz Eşya</a></li>
+        <li class="secondary-nav"><a href="../HTML/tv-sessistemi.html">TV & Sessistemi</a></li>
+        
+      </ul>
+    </nav>
+    </div>
+    <section>
+       <!----- SignUp ----->
+    <section>
+      <div class="section">
+          <div class="autherization">
+              <div class="au_img">
+                  <img src="../Images/signup.png" alt="" class="au_image">
+              </div>
+              <div class="content">
+                  <form action="" class="au_form">
+                      <h2 class="titl"> Üye Bilgileri</h2>
+                      <p class="para">Bilgilerinizi eksiksiz giriniz</p>
+                     
+                      <div class="grp">
+                          <input type="email" placeholder="Email" class="grp_ipt" name="email" id="email" required>
+                      </div>
+                      
+                      <div class="grp">
+                          <input type="password" placeholder="Şifre" class="grp_ipt" name="password" id="password">
+                      </div>
+                      <div class="grp">
+                          <button class="bttn">
+                              <a   onclick="submitForm()" class="bttn_link">Giriş</a>
+                          </button>
+                      </div>
+                      <div class="grp">
+                        <span>Üyeliğiniz yok mu?
+                            <a href="uyelik.html" class="bttn_link2">Üyelik oluştur </a>
+                        </span>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    </section>
+  </body>
+</html>
